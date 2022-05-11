@@ -1,36 +1,39 @@
 body {
     background-color:  #8d8741;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
 
- #header {
+ h1 {
     text-align: center;
-    font-size: 45px;
+    font-size: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-content: flex-start;
 }
 
-.content {
-    display: flex;
-    justify-content: center;
+main {
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;             
     box-shadow:  10px 10px 5px rgba(0, 0, 0, 0.5);
     background-color: #FBEEC1;
     border-radius: 15px;
     resize: none;
-}
+    margin: 80px;
 
-.content p {
+} 
+
+main p {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.5;
     resize: none;
-    padding: 0px 14px 0px 14px;
+    padding: 0px 14px 0px 14px;         
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button {
@@ -39,4 +42,10 @@ button {
     background: whitesmoke;
     font-size: 16px;
     cursor: pointer;
+    
+    
 }
+
+
+
+
