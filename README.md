@@ -1,9 +1,9 @@
 # Kanye Quotes
 
-A web apllication that displays random Kanye West quotes using the kanye API
+A web application that displays random Kanye West quotes using the kanye.rest API
 
 ## Technologies Used
-Kanye rest APi
+*Kanye rest APi
 * jQuery
 * HTML
 * CSS

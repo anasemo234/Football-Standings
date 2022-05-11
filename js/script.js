@@ -3,12 +3,11 @@
 const URL = 'https://api.kanye.rest/'
 
 // Elements
-const $btn = $('#getQuoteBtn'); 
+const $btn = $('#getQuoteBtn');    
 
 
 // Event listeners
-$btn.on('click', handleGetData) 
-  // when button is clicked data will be ran 
+$btn.on('click', handleGetData)      // when button is clicked data will be ran 
 
 
 
@@ -17,8 +16,8 @@ $btn.on('click', handleGetData)
 function handleGetData() {
     $.ajax(URL).then(function(data) {
    console.log(data) 
-   $('main').empty()  
-   $('main').append(`<p>"${data.quote}"</p>`)
+   $('main').empty()     // removes content inside main element
+   $('main').append(`<p>"${data.quote}"</p>`)     
    $('main').append(`<p> ~ Kanye West </p>`)
 
     })

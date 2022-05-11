@@ -1,8 +1,8 @@
 body {
     background-image: radial-gradient(circle, #151617, #131415, #111213, #0f1011, #0d0e0e, #0e1313, #0f1717, #101a1a, #112424, #112e2e, #0e3939, #084444);
-    display: block;
-    justify-content: center;
-    align-items: center;
+    /* display: block; */
+    /* justify-content: center; */
+    /* align-items: center; */
     min-height: 100vh;
 }
 
@@ -40,6 +40,12 @@ main p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+div .button{
+text-align: center;
+
+
+}
 button {
     border-radius: 10px;
     padding: 5px 15px 5px 15px;
@@ -47,15 +53,19 @@ button {
     font-size: 20px;
     cursor: pointer;
     color: aliceblue;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
     background-color: #2b2b2b;
 }
 
-#navbar {
-    background-color: red;
+button:active {
+    background-color: #ffbf00;
 }
+
+
 
 
 
