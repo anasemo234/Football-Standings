@@ -7,7 +7,8 @@ const $btn = $('#getQuoteBtn');
 
 
 // Event listeners
-$btn.on('click', handleGetData)  // when button is clicked data will be ran 
+$btn.on('click', handleGetData) 
+  // when button is clicked data will be ran 
 
 
 
@@ -16,8 +17,9 @@ $btn.on('click', handleGetData)  // when button is clicked data will be ran
 function handleGetData() {
     $.ajax(URL).then(function(data) {
    console.log(data) 
-   const $quote = $
-   $('main').append(`<p>"${data.quote}" - Kanye West</p>`)
+   $('main').empty()  
+   $('main').append(`<p>"${data.quote}"</p>`)
+   $('main').append(`<p> ~ Kanye West </p>`)
 
     })
 
