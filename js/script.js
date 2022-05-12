@@ -1,6 +1,6 @@
 
 // Variables
-const URL = 'https://api.kanye.rest/'
+const URL = 'https://api.kanye.rest/'    // url link to api
 
 // Elements
 const $btn = $('#getQuoteBtn');    
