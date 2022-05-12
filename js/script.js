@@ -7,7 +7,7 @@ const $btn = $('#getQuoteBtn');
 
 
 // Event listeners
-$btn.on('click', handleGetData)      // when button is clicked data will be ran 
+$btn.on('click', handleGetData)      // when button is clicked data will be ran (function will run to then get data from api)
 
 
 
@@ -16,9 +16,9 @@ $btn.on('click', handleGetData)      // when button is clicked data will be ran
 function handleGetData() {
     $.ajax(URL).then(function(data) {
    console.log(data) 
-   $('main').empty()     // removes content inside main element
-   $('main').append(`<p>"${data.quote}"</p>`)     
-   $('main').append(`<p> ~ Kanye West </p>`)
+   $('main').empty()     // removes content inside main element (stops from adding quotes on the page)
+   $('main').append(`<p>"${data.quote}"</p>`)     // adds quote by creating p tags so quote can be placed and is appended to the main
+   $('main').append(`<p> ~ Kanye West </p>`)    
 
     })
 
