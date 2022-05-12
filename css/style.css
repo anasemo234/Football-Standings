@@ -1,8 +1,5 @@
 body {
     background-image: radial-gradient(circle, #151617, #131415, #111213, #0f1011, #0d0e0e, #0e1313, #0f1717, #101a1a, #112424, #112e2e, #0e3939, #084444);
-    /* display: block; */
-    /* justify-content: center; */
-    /* align-items: center; */
     min-height: 100vh;
 }
 
@@ -66,7 +63,36 @@ button:active {
 }
 
 
+header {
+    justify-content: space-between;
+    text-align: right;
+    background-image: radial-gradient(circle, #151617, #131415, #111213, #0f1011, #0d0e0e, #0e1313, #0f1717, #101a1a, #112424, #112e2e, #0e3939, #084444);
+    padding-top: 5px;
+}
 
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: fantasy;
+    
+
+}
+
+#nav-links li a {
+    transition: all 0.3s ease 0s;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+#nav-links li a:hover {
+   color: #0088a9;
+}
 
 
 
