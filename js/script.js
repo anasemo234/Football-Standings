@@ -18,7 +18,7 @@ function handleGetData() {
    console.log(data) 
    $('main').empty()     // removes content inside main element (stops from adding quotes on the page)
    $('main').append(`<p>"${data.quote}"</p>`)     // adds quote by creating p tags so quote can be placed and is appended to the main
-   $('main').append(`<p> ~ Kanye West </p>`)    
+   $('main').append(`<p> ~ Kanye West </p>`)     // adds p element after the quote appending to the main 
 
     })
 
